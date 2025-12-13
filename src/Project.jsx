@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
 
-export default function DataAnalytics() {
+export default function Projects() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

@@ -9,16 +9,18 @@ import Footer from "./Footer";
 import Signup from "./Signup";
 import ProtectedRoute from "./ProtectedRoute";
 import LandingPage from "./YouserAcoount";
-import DataAnalytics from "./Project";
 import SubmitForm from "./Submit";
 import Dashboard from "./DashboardD";
 import SeeHowItWorks from "./SeeHowItWorks";
+import SignupNotification from "./Snotificetion";
+import Projects from "./Project";
 
 function App() {
   return (
     <>
       <Nave />
       <SocialLinks />
+      <SignupNotification/>
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -32,9 +34,7 @@ function App() {
         <Route
           path="/Project"
           element={
-            <ProtectedRoute>
-             <DataAnalytics/>
-            </ProtectedRoute>
+             <Projects/>
           }
         />
         <Route
