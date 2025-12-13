@@ -28,7 +28,7 @@ export default function SubmitForm() {
         TABLEAU: ["Sales Dashboard"],
     };
 
-    const WEB_APP_URL = "/api"; // proxy -> Apps Script URL
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxJ7JnIknYmRscbPuX8wNVGoClHAB7iJT049Z_m8HLke3Ppv_efEEIoQw43N2Ftb0LLYA/exec"; // proxy -> Apps Script URL
 
     // Validation function
     const validate = () => {
