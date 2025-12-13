@@ -24,7 +24,7 @@ export default function Dashboard() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
-  const API_URL = "/api";
+  const API_URL = "https://script.google.com/macros/s/AKfycbxJ7JnIknYmRscbPuX8wNVGoClHAB7iJT049Z_m8HLke3Ppv_efEEIoQw43N2Ftb0LLYA/exec";
 
   useEffect(() => {
     axios

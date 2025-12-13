@@ -11,7 +11,7 @@ export default function Projects() {
   const [showFilters, setShowFilters] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const WEB_APP_URL = "/api";
+  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxJ7JnIknYmRscbPuX8wNVGoClHAB7iJT049Z_m8HLke3Ppv_efEEIoQw43N2Ftb0LLYA/exec";
 
   // Fetch data from server with error handling
   const fetchData = async () => {
