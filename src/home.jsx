@@ -6,9 +6,9 @@ export default function Home() {
   const navigate = useNavigate();
 
   const goToContact = () => {
-    navigate("/Dashborad");
+    navigate("/Project");
     setTimeout(() => {
-      document.getElementById("Dashborad")?.scrollIntoView({
+      document.getElementById("Project")?.scrollIntoView({
         behavior: "smooth",
       });
     }, 200);

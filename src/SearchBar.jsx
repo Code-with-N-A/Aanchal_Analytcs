@@ -6,16 +6,16 @@ export default function SearchBar({ searchText, setSearchText, onClose }) {
   const inputRef = useRef(null);
 
   const projects = [
-    "All Projects",
-    "HTML Form Project",
-    "CSS Portfolio",
-    "JavaScript MCQZ",
-    "JavaScript ATM",
-    "JavaScript Voting",
-    "JavaScript Binary Number",
-    "MPQP RGPV Exam Q Paper",
-    "Blogs"
-  ];
+    "All Analysis",
+    "Sales Performance Dashboard", // Power BI/Tableau
+    "Customer Churn Analysis",      // Python/Machine Learning
+    "SQL Financial Reporting",      // SQL Queries
+    "E-commerce Trend Analysis",    // Python/Pandas
+    "Healthcare Data Cleaning",     // SQL/Python
+    "Supply Chain Optimization",    // Excel/Solver
+    "Social Media Sentiment Analysis", // NLP/Python
+    "Automated Data Scraping"       // BeautifulSoup/Selenium
+];
 
   const [placeholder, setPlaceholder] = useState("Searching...");
   const [projIndex, setProjIndex] = useState(0);

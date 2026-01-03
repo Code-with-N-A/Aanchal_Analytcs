@@ -12,7 +12,7 @@ function Nave() {
   const [searchText, setSearchText] = useState("");
   const [user, setUser] = useState(null);
 
-  const menuItems = ["Home", "About", "Project", "Contact"];
+  const menuItems = ["Home", "About", "Project", "Dashborad", "Contact"];
 
   const toggleSearch = () => {
     setShowSearch(!showSearch);
